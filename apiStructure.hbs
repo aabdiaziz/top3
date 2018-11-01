@@ -1,0 +1,11 @@
+{{#each data}}
+    <div class="items">
+        <div class="item container">
+            <p class="name">{{this.name}}</p>
+            <p class="description">{{this.description}}</p>
+            <p class="created"> {{this.created_at}}</p>
+            <p class="stars"> ★ {{this.stargazers_count}}</p>
+        </div>
+    </div>
+{{/each}}
+

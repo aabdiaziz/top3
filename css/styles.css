@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: slateblue;
+  padding-top: 20px;
+}
+.container h1 {
+  height: 100px;
+  color: springgreen;
+  text-decoration-line: underline;
+  margin: 0 auto;
+}
+.container .items {
+  height: 200px;
+  margin: 20px auto 0 auto;
+  background-color: slateblue;
+  text-align: center;
+}
+.container .items .item {
+  background-color: aqua;
+  width: 500px;
+}
+
+/*# sourceMappingURL=styles.css.map */

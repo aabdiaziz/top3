@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+.container{
+  background-color: slateblue;
+  padding-top: 20px;
+
+  h1 {
+    height: 100px;
+    color: springgreen;
+    text-decoration-line: underline;
+    margin: 0 auto;
+  }
+  .items {
+    height: 200px;
+    margin: 20px auto 0 auto;
+    background-color: slateblue;
+    text-align: center;
+
+
+    .item {
+      background-color: aqua;
+      width: 500px;
+
+
+    }
+  }
+}
+
+
